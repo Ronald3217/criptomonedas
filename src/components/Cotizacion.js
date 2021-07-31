@@ -26,8 +26,8 @@ const Cotizacion = ({resultado}) => {
     return (
         <Resultado>
             <Precio>El Precio es: <span>{resultado.PRICE}</span></Precio>
-            <Info>El span mas alto del dia: <span>{resultado.HIGHDAY}</span></Info>
-            <Info>El span mas bajo del dia: <span>{resultado.LOWDAY}</span></Info>
+            <Info>El Precio mas alto del dia: <span>{resultado.HIGHDAY}</span></Info>
+            <Info>El Precio mas bajo del dia: <span>{resultado.LOWDAY}</span></Info>
             <Info>Variacion ultimas 24 horas: <span>{resultado.CHANGEPCT24HOUR}</span></Info>
             <Info>Ultima actualización: <span>{resultado.LASTUPDATE}</span></Info>
         </Resultado>
